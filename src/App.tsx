@@ -4,7 +4,7 @@ import Todos from "./components/Todos";
 import { Todo } from "./models/Todo";
 
 function App() {
-  const todosni = [new Todo("Learn JS")];
+  const todosni = [new Todo("Learn JS and TapeScript")];
   const [todos, setTodos] = useState(todosni);
   // ["Learn JS", "Learn TypeScript"];
   const onAddHandler = (text: string) => {
